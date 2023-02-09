@@ -50,8 +50,7 @@ end
 
 group :production do
   gem 'pg'
+  gem "ruby-openai"
 end
 
-gem 'faraday'
-gem 'openai'
 gem "ruby-openai"
